@@ -1,0 +1,24 @@
+
+{
+  "name": "string",
+  "uid": "string",
+  "masterId": "string",
+  "module": "Certificate",
+  "config": "object",
+  "companyId": "string",
+  "issuerId": "string",
+  "data":{
+    "title": "string",
+    "subtitle": "string",
+    "date": "string",
+    "place": "string",
+    "reportName": "string",
+    "tableName": "string",
+    "items": [
+      "srNo":"string",
+      "playerName":"string",
+      "medal":"string",
+      "certificateNo":number
+    ]
+  }
+}
