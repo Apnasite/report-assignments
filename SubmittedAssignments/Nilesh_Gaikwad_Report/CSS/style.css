@@ -1,0 +1,144 @@
+.report-container {
+    width: 210mm; 
+    height: 297mm;
+    border: 0.26mm solid #ccc; 
+    padding: 3mm; 
+    background-color: #fff;
+    font-family: 'Arial', sans-serif;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0mm 0mm 2.65mm rgba(0, 0, 0, 0.1); 
+}
+
+/* Header Styles */
+.report-header {
+    background-color: #ffebaf; 
+    color: white;
+    text-align: center;
+    padding: 5pt;
+    margin-bottom: 1mm; 
+    border-radius: 1.32mm;
+    border-bottom: solid black; 
+}
+
+.report-header h2 {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    color: #000080; /* Navy blue text for subtitle */
+    font-size: 14px;
+    margin: 10px;
+}
+
+.report-header h1 {
+    font-weight: bold;
+    color: #b22222; /* Dark red text for title */
+    margin: 0;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.datePlace{
+    border-top: 2px solid black;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.report-date{
+    font-size: 17pt;
+    font-weight: bold;
+    text-align: center;
+    color: #000080;
+    font-size: 14px;
+    margin: 10px;
+
+
+}
+
+.report-place{
+    font-weight: bold;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000080;
+    margin: 10px;
+}
+
+/* Invoice Details */
+.report-details {
+    /* display: flex; */
+    justify-content: space-between;
+    margin-bottom: 5mm; 
+    /* flex-wrap: wrap;  */
+    padding: 3pt; 
+    background-color: #fff;
+    border-radius: 1.32mm; 
+    box-shadow: 0mm 0mm 1.32mm rgba(0, 0, 0, 0.1); }
+
+.report-details h1{
+    flex: 1;
+    margin: 0 2.65mm; 
+}
+category-wrapper {
+    margin-bottom: 20px;
+    top: 67mm;
+    position: absolute;
+    width: 209mm;
+    height: 162mm;
+}
+.report-name{
+    padding-left: 2mm;
+    text-align: center;
+    font-size: 20pt;
+    position: relative;
+    top: 0mm;
+
+}
+.report-items{
+    margin-bottom: 20px;
+
+}
+.table-name{
+    padding-left: 6mm;
+    font-size: 17pt;
+    position: relative;
+    top: 0mm;
+
+}
+.category-name{
+    padding-left: 93mm;
+    font-size: 17pt;
+    position: relative;
+    top: 1mm;
+
+}
+
+/* Table for products */
+.report-items table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10.29mm; 
+}
+
+.report-items th, .report-items td {
+    padding: 2.65mm; 
+    text-align: left;
+    border: 0.26mm solid #ddd; 
+}
+
+.report-items th {
+    background-color: #02BBA9;
+    color: white;
+}
+
+.report-footer {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2mm;
+    text-align: left;
+    font-size: 10.5pt;
+    border-top: 0.79mm solid #02BBA9;
+}
