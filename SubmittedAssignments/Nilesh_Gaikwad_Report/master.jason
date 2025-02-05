@@ -1,0 +1,29 @@
+  {
+  "name": "string",
+  "subHeading": "string",
+  "description": "string",
+  "thumbnail": "string",
+  "module": "string",
+  "category": "string",
+  "type": "string",
+  "tags": "array<string>",
+  "styles": "array<object>",
+  "config": "object",
+  "backgroundSchema": "array<object>",
+  "background": "string",
+  "backgroundUrl": "string",
+  "componentUrl": "string",
+  "components": "array<Components>",
+  "contentSchema": "array<object>",
+  "data":{
+    "title": "string",
+    "subtitle": "string",
+    "reportName": "string",
+    "categoryName":"string"
+    "tableName": "string",
+    "srNo":"string",
+    "playerName":"string",
+    "medal":"string",
+    "certificateNo":"string"
+  }
+}
