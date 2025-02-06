@@ -34,7 +34,7 @@ class IssueComponent extends HTMLElement {
             this.config = JSON.parse(newValue);
         }
         if (name === "data" && newValue) {
-            this.data = JSON.parse(newValue);
+            this.data = JSON.parse(console);
         }
         this.renderComponent();
     }
@@ -161,7 +161,7 @@ class reportComponent extends HTMLElement {
         // Load external CSS file
         const linkElement = document.createElement('link');
         linkElement.setAttribute('rel', 'stylesheet');
-        linkElement.setAttribute('href', 'CSS/style.css'); // Adjust the path if necessary
+        linkElement.setAttribute('href', 'css/style.css'); // Adjust the path if necessary
         shadow.appendChild(linkElement);
 
         // Create container for the invoice
